@@ -4,5 +4,27 @@
 }
 header{
     background-color: rgba(128, 128, 128, 0.534);
-    padding: 2vh 4vw;
+    padding: 2vh 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    border-right: 1px solid rgba(0, 0, 0, 0.329);
+    padding-right: 2vw;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.066);
+    border-radius: 20px;
+    padding-inline: 1vw;
+    border: none;
 }
